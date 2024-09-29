@@ -10,3 +10,5 @@ Technologies Used
 HTML5: For the structure of the web pages.
 CSS3: For the styling, layout, and responsiveness.
 JavaScript: For adding interactivity and dynamic elements.
+
+more functions to added
