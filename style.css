@@ -22,10 +22,10 @@
     padding: 0 40px ;
 }
 
+
 .navigation li {
     padding: 0 15px; /* Space between menu items */
 }
-
 .navigation a {
     color: white;
     text-decoration: none;
@@ -36,6 +36,13 @@
 .navigation a:hover {
     color: #e5e5e5; /* Netflix red on hover for a visual effect */
 }
+
+/* -- LEFT NAV LEFT GROUP-- */
+.left-nav {
+    display: flex;
+    align-items: center; /* Aligns items vertically within the left-nav container */
+}
+
 .right-nav {
     display: flex;
     align-items: center; /* Ensures alignment with other navbar items */
@@ -110,6 +117,43 @@
     border-top: 1px solid white;
 }
 
+.profile:hover .dropdown-menu {
+    display: block;
+}
+
+/* -- VIDEO BACKGROUND -- */
+
+.video-background {
+    position: fixed; /* or 'absolute' */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Or the height you desire */
+    overflow: hidden;
+    z-index: -1; /* Stays behind all content */
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensures content is visible above the video */
+    color: white; /* Ensures text is visible on typical dark video backgrounds */
+    text-align: left;
+    width: 100%; /* Ensures full width within the video background */
+    padding-left: 150px;
+}
+/* hero buttons  */
 .buttons {
     display: flex;
     justify-content: left;
@@ -141,12 +185,17 @@
 .btn svg {
     fill: currentColor; /* Icons take the color of the text */
 }
+.profile:hover .dropdown-menu {
+    display: block;
+}
+
+/* -- Title Image size --- */
 .title-img {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* Keeps the aspect ratio of the image */
+    width: 300px; 
+    height: auto; 
 }
 
 .content p {
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
     text-align: left;
 }
