@@ -199,3 +199,37 @@
     width: 30%;
     text-align: left;
 }
+
+/* footer to bottom of the screen  */
+.site-footer {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    padding:  0px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: transparent;
+}
+.site-footer a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin:  auto;
+    padding: 0 20px;
+}
+
+.site-footer p {
+    margin: 0; /* Remove any default margin from paragraph */
+}
+
+.footer-links {
+    margin-top: 5px; /* Reduce the space between the copyright text and links */
+}
