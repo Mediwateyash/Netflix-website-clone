@@ -1,0 +1,3 @@
+.navbar, body, .navigation a, .content p, .btn {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif; /* This sets Helvetica Neue as the primary font with fallbacks */
+}
