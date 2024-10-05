@@ -110,3 +110,34 @@
     border-top: 1px solid white;
 }
 
+.buttons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 20px; /* Spacing above the button row */
+}
+
+.btn {
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.play {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.more-info {
+    background-color: grey;
+    color: white;
+}
+
+.btn svg {
+    fill: currentColor; /* Icons take the color of the text */
+}
