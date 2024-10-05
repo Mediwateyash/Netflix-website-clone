@@ -141,3 +141,12 @@
 .btn svg {
     fill: currentColor; /* Icons take the color of the text */
 }
+.title-img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+}
+
+.content p {
+    width: 30%; /* Adjust the width as needed */
+    text-align: left;
+}
